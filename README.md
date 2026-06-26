@@ -6,6 +6,9 @@
   downloading official MakeMKV archives, and managing license activation across multiple distributions.
 </p>
 
+<h2>Menu Preview</h2>
+<img src="./src/preview/menu/menu-1.png"/> <img src="./src/preview/menu/menu-2.png"/>
+
 <h2>Features</h2>
 
 <ul>
