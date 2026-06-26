@@ -6,21 +6,32 @@
   downloading official MakeMKV archives, and managing license activation across multiple distributions.
 </p>
 
-<h2>Menu Preview</h2>
+# Menu
+- [Menu](#menu-preview)
+  - [Features](#features)
+  - **[Supported Distributions](#supported-distributions)**
+  - **[Installation](#quick-start)**
+  - [How It Works](#how-it-works)
+  - **[Requirements](#requirements)**
+  - [Troubleshooting](#troubleshooting)
+  - [License](#license)
+  - [Contributing](#contributing)
+
+## Menu Preview
 <img src="./src/preview/menu/menu-1.png"/> <img src="./src/preview/menu/menu-2.png"/>
 
-<h2>Features</h2>
+## Features
 
 <ul>
-  <li><strong>Automatic Dependency Installation</strong> - Detects and installs all required packages for your distribution</li>
-  <li><strong>Official Archive Download</strong> - Fetches the latest OSS and binary archives directly from the official MakeMKV website</li>
-  <li><strong>Fast Setup Process</strong> - Optimized workflow reduces manual configuration and build time</li>
-  <li><strong>License Activation</strong> - Activate your existing MakeMKV license directly from the script</li>
-  <li><strong>Multi-Distribution Support</strong> - Currently supports Arch and Fedora, with Debian/Ubuntu support coming soon</li>
-  <li><strong>Flexible Installation Options</strong> - Choose between fresh installation or activation of existing versions</li>
+  <li><strong>Automatic Dependency Installation</strong> - Detects and installs all required packages for your distribution.</li>
+  <li><strong>Official Archive Download</strong> - Fetches the latest OSS and binary archives directly from the official MakeMKV website.</li>
+  <li><strong>Fast Setup Process</strong> - Optimized workflow reduces manual configuration and build time.</li>
+  <li><strong>License Activation</strong> - Activate your existing MakeMKV license directly from the script.</li>
+  <li><strong>Multi-Distribution Support</strong> - Currently supports Arch and Fedora, with Debian/Ubuntu support coming soon.</li>
+  <li><strong>Flexible Installation Options</strong> - Choose between fresh installation or activation of existing versions.</li>
 </ul>
 
-<h2>Supported Distributions</h2>
+## Supported Distributions
 
 <table>
   <tr>
@@ -41,7 +52,7 @@
   </tr>
 </table>
 
-<h2>Quick Start</h2>
+## Quick Start
 
 <p>Clone the repository and run the installation script:</p>
 
@@ -56,7 +67,7 @@ chmod +x makemkv.sh
 > This is a required step to proceed with MakeMKV setup.
 
 
-<h2>How It Works</h2>
+## How It Works
 
 <ol>
   <li><strong>Distribution Detection</strong> - Automatically identifies your Linux distribution (Arch/Fedora/Debian)</li>
@@ -68,7 +79,7 @@ chmod +x makemkv.sh
 </ol>
 
 
-<h2>Requirements</h2>
+## Requirements
 
 <ul>
   <li>Linux operating system (Arch, Fedora, or Debian/Ubuntu)</li>
@@ -76,33 +87,7 @@ chmod +x makemkv.sh
   <li>Sudo privileges for installing system packages</li>
 </ul>
 
-<h2>Installation Methods Comparison</h2>
-
-<table>
-  <tr>
-    <th>Method</th>
-    <th>Speed</th>
-    <th>Efficiency</th>
-    <th>Customization</th>
-  </tr>
-  <tr>
-    <td>My Script</td>
-    <td>✨ Very Fast</td>
-    <td>✅ High</td>
-    <td>💪 Flexible</td>
-  </tr>
-  <tr>
-    <td>Manual Installation</td>
-    <td>🐢 Slow</td>
-    <td>⏰ Time-consuming</td>
-    <td>⚠️ Complex</td>
-  </tr>
-  <tr>
-
-  </tr>
-</table>
-
-<h2>Troubleshooting</h2>
+## Troubleshooting
 
 <p><strong>Permission Denied Error:</strong></p>
 
@@ -116,7 +101,7 @@ chmod +x makemkv.sh
 
 <p>If the EULA viewer appears stuck, press <code>q</code> to exit and accept the terms to continue with installation.</p>
 
-<h2>License</h2>
+## License
 
 <p>
   This project is licensed under the <strong>MIT License</strong> - see the
@@ -128,7 +113,7 @@ chmod +x makemkv.sh
   <a href="https://www.makemkv.com">MakeMKV website</a> for licensing information.
 </p>
 
-<h2>Contributing ⭐</h2>
+## Contributing
 
 Found a bug? [Open an issue](https://github.com/MRCYODev/makemkv/issues)
 Have a feature idea? [Report it here](https://github.com/MRCYODev/makemkv/issues)
